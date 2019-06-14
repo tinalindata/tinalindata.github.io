@@ -8542,3 +8542,112 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+
+element.style {
+}
+.medium-button-style-outline .sqs-block-button .sqs-block-button-element--medium {
+    color: #7a67ee;
+}
+.small-button-style-outline .sqs-block-button .sqs-block-button-element--small, .medium-button-style-outline .sqs-block-button .sqs-block-button-element--medium, .large-button-style-outline .sqs-block-button .sqs-block-button-element--large, .small-button-style-outline .sqs-alternate-block-style-container .sqs-block-button .sqs-block-button-element--small, .medium-button-style-outline .sqs-alternate-block-style-container .sqs-block-button .sqs-block-button-element--medium, .large-button-style-outline .sqs-alternate-block-style-container .sqs-block-button .sqs-block-button-element--large {
+    border-width: 2px;
+    border-style: solid;
+    background-color: transparent;
+    -webkit-transition: 0.1s background-color linear, 0.1s color linear;
+    -moz-transition: 0.1s background-color linear, 0.1s color linear;
+    -o-transition: 0.1s background-color linear, 0.1s color linear;
+    transition: 0.1s background-color linear, 0.1s color linear;
+}
+
+.sqs-block-button .sqs-block-button-element--medium {
+    padding: 21px 34px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: europa;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #7a67ee;
+    border-color: #7a67ee;
+}
+.sqs-block-button .sqs-block-button-element {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 1em 2.5em;
+    color: #fff;
+    background-color: #272727;
+    border-width: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 1em;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    line-height: normal;
+}
+a, a:visited {
+    color: #fff;
+}
+a {
+    color: #0085bd;
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.sqs-block-button .sqs-block-button-container--right {
+    text-align: right;
+}
+body {
+    font-family: "Helvetica",arial,sans-serif;
+    font-weight: normal;
+    line-height: 1.6em;
+    letter-spacing: 0px;
+    font-family: europa;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2em;
+    text-transform: none;
+    letter-spacing: .02em;
+    font-size: 16px;
+}
+body {
+    background-color: #fff;
+    color: rgba(0,0,0,.85);
+}
+body, button, input, select, textarea {
+    font-family: sans-serif;
+    color: #222;
+}
+body {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.6em;
+}
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+user agent stylesheet
+html {
+    color: -internal-root-color;
+}
